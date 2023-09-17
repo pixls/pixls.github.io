@@ -28,7 +28,7 @@ jobs:
           restore-keys: |
             ${{ runner.OS }}-npm-cache
       - name: Install Dependencies
-        run: npm install
+        run: npm install hexo-theme-aurora hexo-plugin-aurora --save
       - name: Build
         run: npm run build
       - name: Deploy
