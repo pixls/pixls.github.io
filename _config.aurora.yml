@@ -91,10 +91,10 @@ socials:
 #! ---------------------------------------------------------------
 site_meta:
   cdn: cn
-  favicon:
-  description: ''
-  keywords: ''
-  author: ''
+  favicon: ./data/favicon.ico
+  description: 'a blog'
+  keywords: 'technology'
+  author: 'pixls'
 
 #! ---------------------------------------------------------------
 #! Plugins
